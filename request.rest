@@ -9,3 +9,25 @@ Content-Type: application/json
 ###
 
 GET http://localhost:8000/subscriber
+
+
+###
+
+GET http://localhost:8000/subscriber/62e4d1a61b4e397e801df118
+
+
+
+###
+
+DELETE http://localhost:8000/subscriber/62e78a559428f79f1df78a55
+
+
+###
+
+PATCH http://localhost:8000/subscriber/62e4d1a61b4e397e801df118
+Content-Type: application/json
+
+{
+    "name": "*",
+    "channel": "*"
+}
